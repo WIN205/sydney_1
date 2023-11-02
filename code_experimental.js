@@ -153,7 +153,7 @@ async function main2() {
     if (search && search != "Bing AI")
         SetInput(search)
     let lastMessage;
-    console.log("bingai.js");
+    console.log("bingai.js experimental");
     // Save a reference to the original WebSocket
     const OriginalWebSocket = window.WebSocket;
     let currentWebSocket;
